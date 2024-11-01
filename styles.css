@@ -1,0 +1,34 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+.header, .content > *, .footer {
+    padding: 0 10%;
+}
+body {
+    font-family: Roboto, sans-serif;
+}
+.header {
+   background-color: #1F2937;
+   color: #ffffff; 
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
