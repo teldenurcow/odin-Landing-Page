@@ -50,9 +50,6 @@ a {
     height: 150px;
     background-color: #909090;
     border-radius: 2px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex: 0 1 auto;
 }
 .subtext {
@@ -83,9 +80,6 @@ a {
     margin-bottom: 20px;
 }
 .cards {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
 }
@@ -101,9 +95,6 @@ a {
 .img-container {
     border: 3px solid lightblue;
     border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding: 20px;
     text-align: center;
     flex: 1;
@@ -113,9 +104,6 @@ a {
 }
 .quote-section {
     background-color: #cfcfcf;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding-top: 80px;
     padding-bottom: 80px;
 }
@@ -129,10 +117,7 @@ text-align: end;
 font-size: 24px;
 font-weight: 600;
 }
-.signup-section-two {
-display: flex;
-justify-content: center;
-align-items: center;
+.popup-section {
 padding-top: 30px;
 padding-bottom: 30px;
 }
@@ -154,11 +139,6 @@ padding-bottom: 30px;
     color: #d3d0d0;
     font-size: 15px;
 }
-.btn-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 .popup-btn {
     padding: 10px 15px;
     background-color: rgb(43, 107, 243);
@@ -172,4 +152,9 @@ padding-bottom: 30px;
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
+}
+.center-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
