@@ -32,3 +32,81 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
+.signup-section {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    color: #ffffff;
+    justify-content: space-between;
+}
+.signup-section h2 {
+    font-size: 2em;
+    font-weight: 900;
+}
+.signup-image {
+    width: 300px;
+    height: 150px;
+    background-color: #909090;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 1 auto;
+}
+.subtext {
+    font-size: 1em;
+    font-weight: 0;
+    color: #818080;
+}
+.signup-btn {
+    padding: 8px;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #427bf7;
+    border: none;
+    width: 80px;
+    margin-top: 10px;
+}
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.information h1 {
+    font-weight: 900;
+    font-size: 36px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    margin-bottom: 20px;
+}
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex: 0 1 auto;
+    width: 150px;
+    height: 200px;
+    text-align: center;
+}
+.img-container {
+    border: 3px solid lightblue;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+}
+.card > .subtext {
+    margin-top: 5px;
+}
