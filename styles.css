@@ -166,3 +166,10 @@ padding-bottom: 30px;
     border: 2px solid #ffffff;
     color: #ffffff;
 }
+.footer {
+    background-color: #1F2937;
+    color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
