@@ -36,7 +36,8 @@ a {
     background-color: #1F2937;
     display: flex;
     align-items: center;
-    padding: 40px;
+    padding-top: 20px;
+    padding-bottom: 40px;
     color: #ffffff;
     justify-content: space-between;
 }
@@ -109,4 +110,22 @@ a {
 }
 .card > .subtext {
     margin-top: 5px;
+}
+.quote-section {
+    background-color: #cfcfcf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #686868;
+}
+.author {
+text-align: end;
+font-size: 24px;
+font-weight: 600;
 }
