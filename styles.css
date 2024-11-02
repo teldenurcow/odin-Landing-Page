@@ -129,3 +129,40 @@ text-align: end;
 font-size: 24px;
 font-weight: 600;
 }
+.signup-section-two {
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+.popup-container {
+    background-color: rgb(43, 107, 243);
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 80px;
+    border-radius: 10px;
+    flex: 1;
+}
+.text-container {
+    color: #ffffff;
+}
+.popup-heading {
+    font-size: 24px;
+}
+.popup-container .subtext {
+    color: #d3d0d0;
+    font-size: 15px;
+}
+.btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.popup-btn {
+    padding: 10px 15px;
+    background-color: rgb(43, 107, 243);
+    border-radius: 15px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
